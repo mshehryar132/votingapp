@@ -1,0 +1,47 @@
+name: voting_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  gap: ^3.0.1
+  isar: ^3.1.0+1
+  isar_flutter_libs: ^3.1.0+1
+  path_provider: ^2.1.4
+  provider: ^6.1.2
+  flutter_native_splash: ^2.4.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  isar_generator: ^3.1.0+1
+  build_runner: ^2.4.12
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: SourceSerifPro
+      fonts:
+        - asset: resources/fonts/SourceSerifPro-Regular.otf
+        - asset: resources/fonts/SourceSerifPro-Bold.otf
+
+flutter_launcher_icons:
+  android: "ic_launcher"
+  ios: false
+  image_path: "resources/images/logo.png"
+  web:
+    generate: true
+    image_path: "resources/images/logo.png"
+   
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: resources/images/logo.png
